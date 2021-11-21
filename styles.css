@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+html{
+	font-size: 62.5%;
+}
+
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+:root{
+ --black: #333;
+ --black: #333;
+ --white: #fff;
+ --white: #fff;
+}
+
+body{
+	overflow-x: hidden;
+	width: 100vw;
+	
+	
+
+}
+
+.topbar{
+	margin: 15px  15px;
+	font-weight: bold;
+	font-kerning: auto;
+}
+.container{
+	position: fixed;
+    width: 100vw;
+	margin: auto;
+	background: #DCDCDC;
+}
+
+.main{
+
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+
+	
+
+}
+
+
+.main ul{
+display: flex;
+text-decoration: none;
+list-style: none;
+justify-content: space-around;
+padding: 5px 20px;
+margin: 10px 20px;
+}
+
+
+.list-items{
+	padding: 0 10px 0 10px;
+
+}
+
+a {
+	color: var(--black);
+	text-decoration: none;
+	font-size: 2rem;
+
+}
+
+
+li a:hover {
+	border-bottom: 1px solid var(--black);
+}
+
+ .my-intro{
+	min-height: 100vh;
+	text-align: center;
+	color: var(--white);
+	background-image: url("images/illustration 1-01.jpg");
+	background-repeat: no-repeat; 
+  background-size: cover;
+  background-position: 50% 50%;
+	font-size: 2rem;
+	background-color: var(--black);
+	background-blend-mode: multiply;
+	margin: auto;
+	padding-top: 20rem;
+}
+
+.about-intro{
+	width: 75%;
+	margin: auto;
+	padding-top: 2rem;
+}
+
+h1{
+	margin: 0;
+	padding-top: 6rem;
+}
+
+
+.btn{
+	display: block;
+	color: var(--white);
+	background: #ff4c00;
+	padding: 10px 15px;
+	border: none;
+	border-radius: 5px;
+	margin: 2rem auto;
+	
+}
+
+
+h2{
+	color: var(--black);
+	
+	margin: 0;
+
+	
+}
+
+
+.my-skills .percentage{
+	position: relative;
+	width: 250px;
+	height: 6px;
+	display: block;
+	background: #DCDCDC;
+	margin: .5rem .5rem ;
+	z-index: -1;
+}
+
+ul .text{
+	font-size: 2rem;
+	font-color: var(--black);
+
+
+	
+}
+
+.softwaresknown{
+	text-align: center;
+
+}
+
+.skills{
+	text-align: left;
+	font-size: 2.5rem;
+	
+}
+.my-skills{
+	height: : 100vh;
+	box-sizing: border-box; 
+
+}
+
+.my-skills .percentage div{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	background: #ff4c00;
+
+}
+.skillsdivide{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	
+	text-align: left;
+	align-content: center;
+	
+	height: 50vh;
+
+}
+
+.softwaredivide{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	
+	text-align: left;
+	align-content: flex-start;
+	
+	height: 50vh;
+
+}
+
+.list-skills{
+	list-style: none;
+}
+
+.softwarelist{
+	list-style: none;
+}
+
+.software{
+	text-align: left;
+	font-size: 2.5rem;
+}
+
+
+
+.work-container{
+
+display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(7, 5vw);
+    grid-gap: .5rem;
+}
+
+
+.wotk__images{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	display: block;
+}
+
+
+
+.my-works{
+	margin: 3rem 3rem;
+}
+
+.work__heading{
+text-align: center;
+margin: 2rem auto;
+font-size: 2.5rem;
+color: var(--black)
+padding-top:  8rem;
+}
+
+
+.gallery__item--1{
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 6;
+}
+
+.gallery__item--2{
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 6;
+}
+
+.gallery__item--3{
+  grid-column-start: 5;
+  grid-column-end: 8;
+  grid-row-start: 1;
+  grid-row-end: 6;
+}
+
+.gallery__item--4{
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 6;
+  grid-row-end: 9;
+}
+.gallery__item--5{
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 6;
+  grid-row-end: 9;
+}
+
+.gallery__item--6{
+  grid-column-start: 5;
+  grid-column-end: 6;
+  grid-row-start: 6;
+  grid-row-end: 9;
+}
+
+.gallery__item--7{
+  grid-column-start: 6;
+  grid-column-end: 7;
+  grid-row-start: 6;
+  grid-row-end: 9;
+}
+
+.gallery__item--8{
+  grid-column-start: 7;
+  grid-column-end: 8;
+  grid-row-start: 6;
+  grid-row-end: 9;
+}
+
+
+.logo-changes{
+	width: 168.75px;
+	height: 168.75px;
+	border-radius: 50%;
+}
+
+.social__icons{
+	width: 5rem;
+	height: 5rem;
+	margin: auto;
+	}
+
+
+.footer{
+	height: 30rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.lets__work{
+	font-size: 5rem;
+}
+
+
+
+
+
+.footer-heading{
+	font-size: 2.5rem;
+	color: var(--black);
+	text-align: center;
+}
+
